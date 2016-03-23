@@ -1,0 +1,15 @@
+* { margin:0px; padding:0px;} 
+header, footer, section, aside, article, nav { display: block; } 
+div#wrapper {width:80%; margin:0px auto; text-align:center; font-family: Futura, Arial, sans-serif; }
+header{ text-align:center;padding-top: 30px; } 
+header h1 { padding-bottom: 15px; }
+table { margin:0 auto; border-collapse: collapse; border-spacing: 0; }
+caption { font-size: larger; margin: 1em auto; }
+th, td { padding: .75em; }
+th { background: #000; color: #fff; }
+th:first-child { border-radius: 9px 0 0 0; }
+th:last-child { border-radius: 0 9px 0 0; }
+tr:last-child td:first-child { border-radius: 0 0 0 9px; }
+tr:last-child td:last-child { border-radius: 0 0 9px 0; }
+tr:nth-child(odd) { background: #ccc; }
+input[type='radio'] { margin-right: 10px; padding: 10px; }
